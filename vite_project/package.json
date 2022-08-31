@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "build_test": "vue-tsc --noEmit && vite build --mode test",
+    "build_public": "vue-tsc --noEmit && vite build --mode public"
   },
   "dependencies": {
     "vue": "^3.2.37",
