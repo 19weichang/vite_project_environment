@@ -29,5 +29,12 @@ export default defineConfig(({mode}) =>{
       host:'0.0.0.0', //啟動NetWork 本地ip
       port:8080
     },
+    css: {
+      preprocessorOptions: {
+        scss: {
+          additionalData: `@import 'src/styles/login.scss';`
+        }
+      }
+    },
   }
 });

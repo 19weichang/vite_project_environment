@@ -1,5 +1,7 @@
 <template>
-  <div @click="onFinish">login</div>
+  <div id="login">login
+    <button class="btn" @click="onFinish">GO!</button>
+  </div>
 </template>
 
 <script lang="ts">
@@ -54,3 +56,14 @@
     },
   });
   </script>
+
+<style lang="scss" scoped>
+  @import '../styles/login.scss';
+
+  #login {
+    font-size: 24px;
+    .btn {
+      background-color: gray;
+    }
+  }
+</style>
