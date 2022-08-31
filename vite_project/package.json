@@ -11,8 +11,10 @@
     "localServer": "nodemon server/index.ts"
   },
   "dependencies": {
+    "axios": "^0.27.2",
     "cors": "^2.8.5",
     "express": "^4.18.1",
+    "pinia": "^2.0.21",
     "vue": "^3.2.37",
     "vue-router": "^4.0.13"
   },
